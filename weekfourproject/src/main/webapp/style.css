@@ -1,0 +1,54 @@
+h1 {
+	border: .12em solid red;
+	text-align: center;
+	color: white;
+	background-color: black;
+	font-family: Times; 
+	font-size: 3em;
+}
+
+body {
+	 background: url(images/popcorn.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+table {
+	margin-top:.5%; 
+    margin-left:13%;
+	background-color: black;
+	color: white;
+	text-align: center;
+	width: 75%;
+	border: .25em solid red;
+	font-size: 1.5em; 
+}
+
+td {
+	padding-top: .4em;
+}
+
+form {
+	font-size: 1em;
+}
+
+#add{
+	float: left;
+	margin-left: 20em;
+}
+
+#delete{
+	padding-left: 5em;
+	float: left;
+}
+
+#update{         
+	padding-left: 5em;
+	float: left; 
+}
+
+#add, #delete, #update{
+	font-size: 1.5em;
+}
