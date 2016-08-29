@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
 <link rel="stylesheet" href="style.css"/>
+
 	<title>Movie Database</title>
 </head>
 
@@ -12,7 +16,8 @@
 	</audio>
 	<h1>Welcome to the Movie Database!</h1>
 
-	<table>
+	<div>
+	<table class="table table-condensed">
 		<tr>
 			<th>Movie ID</th>
 			<th>Title</th>
@@ -90,56 +95,49 @@
 			<td>Horror</td>
 			<td>100</td>
 		</tr>
-		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
 	</table>
+	</div>
 
-
-	<form id="add">
-		<h2>Add a Movie</h2>
+	<form class="well" id="add">
+		<h2><strong>Add a Movie</strong></h2>
  		Movie Title:<br>
- 		<input type="text" name="movietitle">
+ 		<input type="text" name="movietitle" placeholder="Title">
  		<br>
  		Movie Rating:<br>
- 		<input type="text" name="rating">
+ 		<input type="text" name="rating" placeholder="Rating">
  		<br>
 		 Genre:<br>
- 		<input type="text" name="genre">
+ 		<input type="text" name="genre" placeholder="Genre">
  		<br>
  		Length(minutes):<br>
- 		<input type="text" name="length">
+ 		<input type="text" name="length" placeholder="Length">
  		<br><br>
- 		<input type="submit" onclick="alert('You added a movie to the database!')" value="Submit">
+ 		<input id="one" type="button" class="btn btn-default btn-lg btn-block glyphicon glyphicon-facetime-video" type="submit" onclick="alert('You added a movie to the database!')" value="Submit">
 	</form>
 
-	<form id="delete">
-		<h2>Delete a Movie</h2>
+	<form class="well" id="delete">
+		<h2><strong>Delete a Movie</strong></h2>
  		Movie ID:<br>
- 		<input type="text" name="movietitle"><br><br>
- 		<input type="submit" onclick="alert('You deleted the movie from the database!')" value="Submit">
+ 		<input type="text" name="movietitle" placeholder="MovieID"><br><br>
+ 		<input id="two" type="button" class="btn btn-default btn-lg btn-block" type="submit" onclick="alert('You deleted the movie from the database!')" value="Delete">
  		<br>
 	</form>
 
-	<form id="update">
-		<h2>Update a Movie</h2>
+	<form class="well" id="update">
+		<h2><strong>Update a Movie</strong></h2>
  		Movie Title:<br>
- 		<input type="text" name="movietitle">
+ 		<input type="text" name="movietitle" placeholder="Title">
  		<br>
  		Movie Rating:<br>
- 		<input type="text" name="rating">
+ 		<input type="text" name="rating" placeholder="Rating">
  		<br>
 		 Genre:<br>
- 		<input type="text" name="genre">
+ 		<input type="text" name="genre" placeholder="Genre">
  		<br>
  		Length(minutes):<br>
- 		<input type="text" name="length">
+ 		<input type="text" name="length" placeholder="Length">
  		<br><br>
- 		<input type="submit" onclick="alert('You updated a movie on the database!')" value="Submit">
+ 		<input id="three" type="button" class="btn btn-default btn-lg btn-block" type="submit" onclick="alert('You updated a movie on the database!')" value="Update">
 	</form>
 
 </body>

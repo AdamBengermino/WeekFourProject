@@ -1,5 +1,5 @@
 h1 {
-	border: .12em solid red;
+	border: .12em solid #1A3A00;
 	text-align: center;
 	color: white;
 	background-color: black;
@@ -8,22 +8,23 @@ h1 {
 }
 
 body {
-	 background: url(images/popcorn.jpg) no-repeat center center fixed; 
+	 background: url(images/toystory.jpeg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 
+div{
+	width: 50%;
+	margin-left: 33em;
+}
+
 table {
-	margin-top:.5%; 
-    margin-left:13%;
 	background-color: black;
 	color: white;
-	text-align: center;
-	width: 75%;
-	border: .25em solid red;
-	font-size: 1.5em; 
+	border: .25em solid #1A3A00;
+	font-size: 1.5em;
 }
 
 td {
@@ -34,21 +35,39 @@ form {
 	font-size: 1em;
 }
 
-#add{
+.well{
+	color: #1A3A00;
 	float: left;
-	margin-left: 20em;
+	font-size: 1.5em;
+}
+
+#add{
+	margin-left: 21.5em;
 }
 
 #delete{
-	padding-left: 5em;
-	float: left;
+	margin-left: .7em;
 }
 
-#update{         
-	padding-left: 5em;
-	float: left; 
+#update{
+	margin-left: .7em;
 }
 
-#add, #delete, #update{
-	font-size: 1.5em;
+#one{
+	font-size: 1.4em;	
+	border: .2em solid #1A3A00;
+	border-radius: .6em;
 }
+
+#two{
+	font-size: 1.4em;
+	border: .2em solid #1A3A00;
+	border-radius: .6em;
+}
+
+#three{
+	font-size: 1.4em;
+	border: .2em solid #1A3A00;
+	border-radius: .6em;
+}
+
