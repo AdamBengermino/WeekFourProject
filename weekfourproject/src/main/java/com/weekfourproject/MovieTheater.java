@@ -21,7 +21,7 @@ public class MovieTheater
 				DAO.readFromDB();
 				break;
 			case "2":
-				DAO.writeToDB();
+				//DAO.writeToDB();
 				break;
 			case "3":
 				DAO.removeFromDB();

@@ -98,7 +98,7 @@
 	</table>
 	</div>
 
-	<form class="well" id="add">
+	<form class="well" id="add" action="addtoDB" method="post" onsubmit="setTimeout(function () { window.location.reload(); }, 10)">
 		<h2><strong>Add a Movie</strong></h2>
  		Movie Title:<br>
  		<input type="text" name="movietitle" placeholder="Title">
@@ -112,7 +112,8 @@
  		Length(minutes):<br>
  		<input type="text" name="length" placeholder="Length">
  		<br><br>
-		<button id="one" class="btn btn-default btn-lg btn-block glyphicon glyphicon-facetime-video" type="submit" onclick="alert('You added a movie to the database!')" value="Submit"></button>	</form>
+ 		<button id="one" class="btn btn-default btn-lg btn-block glyphicon glyphicon-facetime-video" type="submit" onclick="alert('You added a movie to the database!')" value="Submit"></button>
+	</form>
 
 	<form class="well" id="delete">
 		<h2><strong>Delete a Movie</strong></h2>
